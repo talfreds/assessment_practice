@@ -1,0 +1,134 @@
+body {
+    overflow:hidden;
+}
+
+#header {
+    text-align:center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 100px;
+    margin:auto;
+    width:30vw;
+    border-bottom: 1px solid #ccc;
+}
+
+#center {
+    position: absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    width:30vw;
+    height:30vh;
+    text-align:center;
+    transition: bottom 1s, left 1s;
+    
+}
+
+#centerimg    {
+    height:100%;
+    right:0px;
+    left:0px;
+    position:absolute;
+    width:auto;
+    margin:auto;
+    padding:5px;
+}
+
+#buttons    {
+    position:absolute;
+    bottom:-35px;
+    left:0px;
+    right:0px;
+    
+}
+
+
+#leftb, #rightb {
+    width:50px;
+    height:auto;
+    top:50%;    
+    position:absolute;
+}
+#leftb  {
+    left:-50px;
+    
+}
+#rightb  {
+    right:-50px;
+}
+
+#topb, #botb   {
+    
+    position:absolute;
+    height:auto;
+    width:50px;
+    margin-left:-25px;
+    left:50%;
+}
+
+.b  {
+    display:inline;
+}
+
+
+#topb  {
+    top:-50px;
+}
+#botb  {
+    bottom:-75px;
+}
+
+#menu   {
+    width:75px;
+    right:-75px;
+    top:0px;
+    margin:auto;
+    position:absolute;
+    text-align:center;
+}
+
+.menuimg    {
+    width:100%;
+    height:auto;    
+}
+#menub  {
+    width:50px;
+    position:absolute;
+    left:-50px;
+}
+
+#mup, #mdown, #mleft, #mright   {
+    width:100%;
+    margin:2px;
+}
+#mminus, mplus  {
+    width:50%;
+    margin:2px;
+}
+
+#chat   {
+    position:absolute;
+    display:none;
+    height:10%;
+    width:auto;
+    transition: bottom 1s, right 1s;
+}
+
+#cshirt   {
+    position:absolute;
+    display:none;
+    height:10%;
+    width:auto;
+    transition: bottom 1s, right 1s;
+}
+
+#cring   {
+    position:absolute;
+    display:none;
+    height:10%;
+    width:auto;
+    transition: bottom 1s, right 1s;
+}
