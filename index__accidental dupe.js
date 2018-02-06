@@ -9,44 +9,35 @@ var mbot = 50;
 var def = 50;
 var sdef = 10;
 
-document.getElementById('menu').style.right = '-75px';
+document.getElementById('chat').style.bottom = def + 'px';
+document.getElementById('chat').style.right = def + 'px';
+document.getElementById('chat').style.height = sdef + '%';
 
-document.getElementById('chat').style.bottom = def+'px';
-document.getElementById('chat').style.right = def+'px';
-document.getElementById('chat').style.height = sdef+'%';
-
-document.getElementById('cshirt').style.bottom = def+'px';
-document.getElementById('cshirt').style.right = def+'px';
-document.getElementById('cshirt').style.height = sdef+'%';
+document.getElementById('cshirt').style.bottom = def + 'px';
+document.getElementById('cshirt').style.right = def + 'px';
+document.getElementById('cshirt').style.height = sdef + '%';
     
-document.getElementById('cring').style.bottom = def+'px';
-document.getElementById('cring').style.right = def+'px';
-document.getElementById('cring').style.height = sdef+'%';
+document.getElementById('cring').style.bottom = def + 'px';
+document.getElementById('cring').style.right = def + 'px';
+document.getElementById('cring').style.height = sdef + '%';
 
 
 document.getElementById('ava1button').addEventListener('click',
-                                                      function(){
+                                                      function () {
     myImg.src = "ava1.png";
 });
 
 document.getElementById('ava2button').addEventListener('click',
-                                                      function(){
+                                                      function() {
     myImg.src = "ava2.png";
 });
 
 
 document.getElementById('menub').addEventListener('click',  
-                                                 function(){
-
-    menuloc = parseInt(document.getElementById('menu').style.right, 10);
-    if (menuloc == -75)
-        {
-            document.getElementById('menu').style.right = '0px';   
-        }
-    if (menuloc == 0)
-        {
-            document.getElementById('menu').style.right = '-75px';
-        }
+                                                 function() {
+    
+    document.getElementById('menu').style.right = '0px';
+    
 });
 
 document.getElementById('topb').addEventListener('click',    
